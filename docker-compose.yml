@@ -1,0 +1,9 @@
+services:
+  alpine-dind:
+    build:
+      context: .
+    ports:
+      - 3000:3000
+    container_name: alpine-dind
+    image: alpine-dind
+    privileged: true
