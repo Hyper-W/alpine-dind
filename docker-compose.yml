@@ -1,7 +1,0 @@
-services:
-  alpine-dind:
-    build:
-      context: .
-    container_name: alpine-dind
-    image: alpine-dind
-    privileged: true
